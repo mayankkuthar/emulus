@@ -76,6 +76,20 @@ input::placeholder {
   font: inherit;
 }
 
+.img2{
+  display: none;
+}
+
+@media only screen and (max-width: 538px){ 
+  .img1{
+    display: none;
+  }
+
+  .img2{
+    display: block;
+  }
+}
+
 .btn {
   color: var(--color-white);
   text-transform: uppercase;
