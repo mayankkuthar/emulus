@@ -866,6 +866,7 @@ body {
 
 .bord4 {
     position: relative;
+    width: fit-content;
 }
 .bord4:before {
     display: block;
@@ -873,8 +874,8 @@ body {
     width: 95px;
     height: 87px;
     position: absolute;
-    top: 8px;
-    left: 120px;
+    top: 0px;
+    left: 0px;
     border-top: 9px solid #E54727;
     border-left: 9px solid #E54727;
     z-index: 9999;
@@ -885,8 +886,8 @@ body {
     width: 95px;
     height: 87px;
     position: absolute;
-    bottom: 57px;
-    right: 16px;
+    bottom: 0px;
+    right: 0px;
     border-bottom: 9px solid #E54727;
     border-right: 9px solid #E54727;
 }
