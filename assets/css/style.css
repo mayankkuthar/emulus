@@ -234,7 +234,7 @@ body {
   transform: translatX(-53%);
 }
 
-.section-heading p {
+.section-para p {
   color: var(--ternary-color);
     font-size: 18px;
     width: 76%;
