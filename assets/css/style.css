@@ -27,6 +27,12 @@ li {
   list-style: none;
 }
 
+.container{
+  width: auto;
+  margin-left: 7.5vw !important;
+  margin-right: 7.5vw !important;
+}
+
 .red {
 color: var(--primary-color);
     font-weight: 400;
@@ -105,7 +111,7 @@ body {
 .banner-content {
   flex-direction: column;
   padding: 85px 0;
-  padding-left: 104px;
+  padding-left: 7.5vw;
   display: flex;
 }
 
@@ -120,6 +126,12 @@ body {
     letter-spacing: 1.5px;
     line-height: 55px;
     position: relative;
+}
+
+@media only screen and (max-width: 535px) {
+  .banner-title h1 {
+    font-size: 40px;
+  }
 }
 
 .banner-title2 h1 {
