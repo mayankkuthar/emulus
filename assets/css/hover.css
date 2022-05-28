@@ -1,0 +1,13 @@
+.cap-btn-hover:hover{
+    background-color: #131931;
+    color: #fff !important;
+}
+
+.about-btn-hover:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.research-btn:hover{
+    background-color: var(--primary-color);
+}

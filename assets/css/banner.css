@@ -1,0 +1,33 @@
+.banner-contact {
+  background-image: url("../img/contact/contact-banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  flex-direction: column;
+  padding: 85px 0;
+  display: flex;
+}
+
+.map-image {
+  background-image: url("../img/contact/map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+
+
+.banner-case-study{
+  background-image: url("../img/case-study/case-study-banner.png");
+}
+
+.banner-about{
+  background-image: url("../img/about-banner.png");
+}
+
+.banner-service{
+  background-image: url("../img/service/service-banner.png");
+}
