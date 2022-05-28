@@ -643,6 +643,7 @@ body {
 
 .bord2 {
     position: relative;
+    width: fit-content;
 }
 .bord2:before {
     display: block;
@@ -663,7 +664,7 @@ body {
     height: 87px;
     position: absolute;
     bottom: 0px;
-    right: 136px;
+    right: 0px;
     border-bottom: 9px solid #E54727;
     border-right: 9px solid #E54727;
 }
