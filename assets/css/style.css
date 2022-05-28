@@ -28,9 +28,14 @@ li {
 }
 
 .container{
+  max-width: 100%;
   width: auto;
   margin-left: 7.5vw !important;
   margin-right: 7.5vw !important;
+}
+
+.row{
+  justify-content: space-evenly;
 }
 
 .red {
@@ -187,6 +192,13 @@ body {
   padding: 25px 0;
 }
 
+.section-heading{
+  border-bottom: 3px solid #131931;
+  margin-left: 24vw;
+  margin-right: 24vw;
+  width: auto;
+}
+
 .section-heading h2 {
   text-transform: uppercase;
     color: var(--secondary-color);
@@ -209,17 +221,6 @@ body {
     margin-top: 25px;
 }
 
-.section-heading h2:after {
-  position: absolute;
-  content: "";
-  width: 134px;
-  height: 2px;
-  background-color: var(--secondary-color);
-  bottom: -8px;
-  top: 51px;
-  left: 44%;
-  transform: translatX(-53%);
-}
 
 .section-heading3 h2:after {
   position: absolute;
