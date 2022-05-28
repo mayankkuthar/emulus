@@ -195,9 +195,9 @@ body {
 
 .section-heading {
   border-bottom: 3px solid #131931;
-  margin-left: 24vw;
-  margin-right: 24vw;
-  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 }
 
 .section-heading h2 {
@@ -209,6 +209,19 @@ body {
   position: relative;
   margin-bottom: 1.3rem;
   margin-top: 25px;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 900px) {
+  .section-heading h2 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 535px) {
+  .section-heading h2 {
+    font-size: 22px;
+  }
 }
 
 .section-heading3 h2 {
