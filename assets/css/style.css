@@ -249,19 +249,6 @@ body {
   margin-top: 25px;
 }
 
-
-.section-heading3 h2:after {
-  position: absolute;
-  content: "";
-  width: 134px;
-  height: 2px;
-  background-color: var(--secondary-color);
-  bottom: -8px;
-  top: 114px;
-  left: 44%;
-  transform: translatX(-53%);
-}
-
 .section-para p {
   color: var(--ternary-color);
   font-size: 18px;
@@ -302,6 +289,39 @@ body {
 .nav-tabs .nav-link:hover {
   color: var(--primary-color);
   border-bottom: 4.5px solid var(--primary-color);
+}
+
+.about-map-area {
+  height: 500px;
+}
+
+.about-map-background {
+  background-image: url("../img/about/Group\ 1195.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.map-content {
+  display: flex;
+  align-items: center;
+}
+
+.map-content p {
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+  padding: 10px;
+}
+
+.map-content p:before {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 0;
+  width: 2.5px;
+  height: 82%;
+  background-color: red;
 }
 
 .nav-tabs .nav-link.active {
@@ -674,16 +694,8 @@ iframe {
   padding: 10px;
 }
 
-.case-study-list h3 {
-  font-size: 21px;
-  margin: 10px 0;
-  font-weight: 300;
-  text-transform: uppercase;
-  position: relative;
-  margin-bottom: 1.5rem;
-}
 
-.case-study-list2 h3 {
+/*.case-study-list2 h3 {
   font-size: 21px;
   margin: 10px 0;
   font-weight: 300;
@@ -711,7 +723,7 @@ iframe {
   bottom: -8px;
   background-color: var(--secondary-color);
 
-}
+}*/
 
 .case-study-list p {
   font-size: 20px;
@@ -958,6 +970,7 @@ iframe {
 
 .bord3 {
   position: relative;
+  width: fit-content;
 }
 
 .bord3:before {
@@ -966,8 +979,6 @@ iframe {
   width: 95px;
   height: 87px;
   position: absolute;
-  top: 12px;
-  left: -43px;
   border-top: 9px solid #E54727;
   border-left: 9px solid #E54727;
   z-index: 9999;
@@ -980,7 +991,7 @@ iframe {
   height: 87px;
   position: absolute;
   bottom: 0px;
-  right: 67px;
+  right: 12px;
   border-bottom: 9px solid #E54727;
   border-right: 9px solid #E54727;
 }

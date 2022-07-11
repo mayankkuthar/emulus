@@ -23,7 +23,7 @@
 nav .content {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 nav .content .links {
   display: flex;
@@ -34,11 +34,19 @@ nav .content .links {
   font-weight: 600;
 }
 
+@media only screen and (min-width: 900px) {
+  .logo{
+    margin-left: 60px;
+  }
+}
+
+
 .menu-links {
   display: flex;
   justify-content: left;
   align-items: center;
   margin-left: -101px;
+  margin-right: 60px;
 }
 .content .links li {
   list-style: none;

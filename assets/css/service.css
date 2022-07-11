@@ -1,5 +1,7 @@
 .data-eng {
     padding: 40px 0;
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
 }
 
 .data-eng-content h3 {
@@ -85,12 +87,16 @@
 .data-eng-content h3:after {
     position: absolute;
     content: "";
-    width: 140px;
+    width: 40%;
+    margin-left: 10px;
     height: 2px;
     background-color: var(--secondary-color);
     bottom: -8px;
     left: 1px;
-    top: 48px;
+}
+
+.sec-o{
+    background-color: #e7e8ea;
 }
 
 .data-eng-content2 h3:after {
@@ -251,11 +257,15 @@
     list-style: disc;
 }
 
+.box{
+    justify-content: space-evenly;
+    margin-left: inherit;
+}
+
 .data-content {
     padding: 30px 0;
     border-top: 1px solid var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
-    padding-left: 211px;
 }
 
 .data-data {
