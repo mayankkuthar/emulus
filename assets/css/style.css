@@ -523,14 +523,32 @@ body {
 
 .we-worked {
   padding: 25px 0;
+  overflow: hidden;
+}
+
+.imgbrand{
+  width: 13%;
+  height: min-content;
+  margin: auto;
 }
 
 .worked-img {
   display: flex;
+  position: relative;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  align-content: center;
   padding-top: 10px;
   padding-bottom: 61px;
+  animation: bannermove 50s linear infinite alternate-reverse;
+}
+
+@keyframes bannermove {
+  from {
+    left: 97vw;
+  }
+  to {
+    left: -97vw;
+  }
 }
 
 .footer {
