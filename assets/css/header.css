@@ -1,59 +1,32 @@
 .header {
   border-top: 6px solid var(--primary-color);
-  position: sticky;
+  position: fixed;
   background-color: #fff;
   z-index: 999;
+  width:-webkit-fill-available;
 }
-.wrapper {
-  /* background: red; */
-  position: sticky;
-  padding-bottom: 15px;
-  width: 100%;
-  padding-top: 10px;
-}
-.wrapper nav {
-  position: relative;
-  /* max-width: calc(100% - 200px); */
-  margin: 0 auto;
-  height: 70px;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 0;
-}
-nav .content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-nav .content .links {
+ .links {
   display: flex;
 }
-.content .logo a {
-  color: #fff;
-  font-size: 30px;
-  font-weight: 600;
-}
 
-@media only screen and (min-width: 900px) {
-  .logo{
-    margin-left: 60px;
-  }
+.menu-shrik{
+  display: none;
 }
-
 
 .menu-links {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
-  margin-left: -101px;
-  margin-right: 60px;
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 17px;
 }
-.content .links li {
+ .links li {
   list-style: none;
   /* line-height: 70px; */
 }
-.content .links li a,
-.content .links li label {
+ .links li a,
+ .links li label {
   color: var(--secondary-color);
   font-size: 14px;
   font-weight: 400;
@@ -61,11 +34,11 @@ nav .content .links {
   /* border-radius: 5px; */
   transition: all 0.3s ease;
 }
-.content .links li label {
+ .links li label {
   display: none;
 }
-.wrapper .search-icon,
-.wrapper .menu-icon {
+  .search-icon,
+  .menu-icon {
   color: var(--secondary-color);
   font-size: 18px;
   cursor: pointer;
@@ -73,14 +46,14 @@ nav .content .links {
   width: 70px;
   text-align: center;
 }
-.wrapper .menu-icon {
+  .menu-icon {
   display: none;
 }
-.wrapper #show-search:checked ~ .search-icon i::before {
+  #show-search:checked ~ .search-icon i::before {
   content: "\f00d";
 }
 
-.wrapper .search-box {
+  .search-box {
   position: absolute;
   height: 100%;
   max-width: calc(100% - 50px);
@@ -89,7 +62,7 @@ nav .content .links {
   pointer-events: none;
   transition: all 0.3s ease;
 }
-.wrapper #show-search:checked ~ .search-box {
+  #show-search:checked ~ .search-box {
   opacity: 1;
   pointer-events: auto;
 }
@@ -130,12 +103,12 @@ nav .content .links {
   font-size: 20px;
   cursor: pointer;
 }
-.wrapper input[type="checkbox"] {
+  input[type="checkbox"] {
   display: none;
 }
 
 /* Dropdown Menu code start */
-.content .links ul {
+ .links ul {
   position: absolute;
   background: #131931;
   top: 80px;
@@ -144,7 +117,7 @@ nav .content .links {
   visibility: hidden;
   margin-top: -15px;
 }
-.content .links li:hover > ul {
+ .links li:hover > ul {
   top: 56px;
   border-top: 2px solid #000;
   opacity: 1;
@@ -152,66 +125,64 @@ nav .content .links {
   transition: all 0.3s ease;
   padding: 0 10px !important;
 }
-.content .links ul li a {
+ .links ul li a {
   display: block;
   width: 100%;
   line-height: 30px;
   border-radius: 0px !important;
 }
-.content .links ul ul {
+ .links ul ul {
   position: absolute;
   top: 0;
   right: calc(-100% + 8px);
 }
-.content .links ul li {
+ .links ul li {
   position: relative;
 }
-.content .links ul li:hover ul {
+ .links ul li:hover ul {
   top: 0;
 }
 
 /* Responsive code start */
 @media screen and (max-width: 1250px) {
-  .wrapper nav {
-    max-width: 100%;
-    padding: auto 20px;
-  }
-  nav .content .links {
+    .links {
     margin-left: 30px;
   }
-  .content .links li a {
+ .links li a {
     padding: 8px 13px;
   }
-  /* .wrapper .search-box {
+  /*   .search-box {
       max-width: calc(100% - 100px);
     }
-    .wrapper .search-box input {
+      .search-box input {
       padding: 0 100px 0 15px;
     } */
 }
 
-@media screen and (max-width: 900px) {
-  .wrapper nav {
-    position: relative;
-    display: flex;
-    max-width: 100%;
-    margin: 0 auto;
-    height: 70px;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    padding: 0 20px;
-  }
-  .wrapper .menu-icon {
+.linkshrink{
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .menu-shrik{
     display: block;
   }
-  .wrapper #show-menu:checked ~ .menu-icon i::before {
+    .menu-icon {
+    display: block;
+  }
+
+    #show-menu:checked ~ .menu-icon i::before {
     content: "\f00d";
   }
   .search{
     display: none;
   }
-  nav .content .links {
+
+  .links{
+    display: none;
+  }
+
+   .linkshrink {
     display: block;
     position: fixed;
     background: #fff;
@@ -226,28 +197,28 @@ nav .content .links {
     padding-bottom: 100px;
     transition: all 0.3s ease;
   }
-  nav #show-menu:checked ~ .content .links {
-    left: 0%;
+  #show-menu:checked ~ .linkshrink{
+    left:0%;
   }
-  .content .links li {
+   .linkshrink li {
     margin: 15px 20px;
     padding-left: 27px;
   }
-  .content .links li a,
-  .content .links li label {
+  .linkshrink li a,
+   .linkshrink li label {
     line-height: 40px;
     font-size: 20px;
     display: block;
     padding: 8px 18px;
     cursor: pointer;
   }
-  .content .links li a.desktop-link {
+  .linkshrink li a.desktop-link {
     display: none;
   }
 
   /* dropdown responsive code start */
-  .content .links ul,
-  .content .links ul ul {
+   .linkshrink ul,
+   .linkshrink ul ul {
     position: static;
     opacity: 1;
     visibility: visible;
@@ -255,36 +226,23 @@ nav .content .links {
     max-height: 0px;
     overflow: hidden;
   }
-  .content .links #show-features:checked ~ ul,
-  .content .links #show-services:checked ~ ul,
-  .content .links #show-items:checked ~ ul {
+   .linkshrink #show-features:checked ~ ul,
+   .linkshrink #show-services:checked ~ ul,
+   .linkshrink #show-items:checked ~ ul {
     max-height: 100vh;
   }
-  .content .links ul li {
+   .linkshrink ul li {
     margin: 7px 20px;
   }
-  .content .links ul li a {
+   .linkshrink ul li a {
     font-size: 18px;
     line-height: 30px;
     border-radius: 5px !important;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .wrapper nav {
-    padding: 0 10px;
-  }
-  .content .logo a {
-    font-size: 27px;
-  }
-  .wrapper .search-box {
-    max-width: calc(100% - 70px);
-  }
-  .wrapper .search-box .go-icon {
-    width: 30px;
-    right: 0;
-  }
-  .wrapper .search-box input {
-    padding-right: 30px;
-  }
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }

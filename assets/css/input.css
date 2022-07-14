@@ -20,6 +20,11 @@ textarea{
     resize: none;
 }
 
+.subcorner{
+    display: flex;
+    justify-content: flex-end;
+  }
+
 .submit-div{
     display: flex;
     align-items: center;

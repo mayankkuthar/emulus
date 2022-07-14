@@ -30,8 +30,8 @@ li {
 .container {
   max-width: 100%;
   width: auto;
-  margin-left: 7.5vw !important;
-  margin-right: 7.5vw !important;
+  margin-left: 15vw !important;
+  margin-right: 15vw !important;
 }
 
 .row {
@@ -76,16 +76,16 @@ input::placeholder {
   font: inherit;
 }
 
-.img2{
+.img2 {
   display: none;
 }
 
-@media only screen and (max-width: 538px){ 
-  .img1{
+@media only screen and (max-width: 538px) {
+  .img1 {
     display: none;
   }
 
-  .img2{
+  .img2 {
     display: block;
   }
 }
@@ -124,12 +124,13 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 10px;
+  margin-top: 100px;
 }
 
 .banner-content {
   flex-direction: column;
-  padding: 85px 0;
+  padding: 120px 0;
+  padding-left: 15px;
   padding-left: 7.5vw;
   display: flex;
 }
@@ -150,6 +151,12 @@ body {
 @media only screen and (max-width: 535px) {
   .banner-title h1 {
     font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .row-map {
+    flex-direction: column !important;
   }
 }
 
@@ -286,6 +293,11 @@ body {
   transition: all 0.3s ease;
 }
 
+.main-flex {
+  display: flex;
+  flex-direction: column;
+}
+
 .nav-tabs .nav-link:hover {
   color: var(--primary-color);
   border-bottom: 4.5px solid var(--primary-color);
@@ -341,8 +353,7 @@ body {
 }
 
 .fas {
-  font-size: 16px;
-  margin-left: 10px;
+  font-size: 20px;
 }
 
 .why-us-content {
@@ -483,13 +494,13 @@ body {
     back
 } */
 
-.why-us-h6{
+.why-us-h6 {
   padding-top: 10px;
   width: 450px;
   margin-left: 120px;
 }
 
-.why-us-p{
+.why-us-p {
   padding-left: 103px;
   width: 570px;
   margin-top: 18px;
@@ -499,10 +510,12 @@ body {
   .why-us-h6 {
     width: 350px;
   }
+
   .why-us-p {
     width: 450px;
   }
-  .why-us-data{
+
+  .why-us-data {
     padding-right: 8vw;
   }
 }
@@ -511,6 +524,7 @@ body {
   .why-us-h6 {
     width: 250px;
   }
+
   .why-us-p {
     width: 350px;
   }
@@ -520,6 +534,7 @@ body {
   .why-us-h6 {
     width: auto;
   }
+
   .why-us-p {
     width: auto;
   }
@@ -541,13 +556,13 @@ iframe {
 
 @media only screen and (max-width: 992px) {
   iframe {
-      height: 22vw
+    height: 22vw
   }
 }
 
 @media only screen and (max-width: 576px) {
   iframe {
-      height: 44vw
+    height: 44vw
   }
 }
 
@@ -561,7 +576,7 @@ iframe {
   overflow: hidden;
 }
 
-.imgbrand{
+.imgbrand {
   width: 13%;
   height: min-content;
   margin: auto;
@@ -581,6 +596,7 @@ iframe {
   from {
     left: 97vw;
   }
+
   to {
     left: -97vw;
   }
@@ -1041,4 +1057,105 @@ iframe {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background: var(--primary-color);
+}
+
+.container-map {
+  width: 100%;
+  margin: 0 auto;
+}
+
+path {
+  fill: lightgray;
+  stroke: white;
+  z-index: 20;
+}
+
+.occupied {
+  fill: #E54727 !important;
+  stroke: white;
+}
+
+.map-address {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 250px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  opacity: 0;
+  z-index: -10;
+}
+
+.map-address .vis {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-family: 'Poppins';
+  font-weight: lighter;
+  background-color: #ffffff;
+  width: 100%;
+  height: 57%;
+  border: 0.1px solid black;
+  border-radius: 8%;
+}
+
+.map-address .trans {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 39%;
+}
+
+.map-address .dot {
+  width: 6%;
+  height: 4%;
+  background-color: #ffffff;
+  border: 0.1px solid black;
+  border-radius: 50%;
+  margin:auto;
+}
+
+.trans .mid {
+  border-right: 0.1px solid black;
+  width: 50%;
+  height: 100%;
+}
+
+.vis .address{
+  justify-content: left;
+  height: 50%;
+  padding: 10px;
+  padding-bottom: 1px !important;
+}
+
+.vis .phone{
+  display: flex;
+  justify-content: left;
+  height: 15%;
+  padding: 10px;
+  padding-bottom: 1px !important;
+  padding-top: 1px !important;
+}
+
+.vis .mail{
+  display: flex;
+  justify-content: left;
+  height: 15%;
+  padding: 10px;
+  padding-bottom: 1px !important;
+  padding-top: 1px !important;
+}
+
+.vis .dir{
+  height: 20%;
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 20px !important;
+  text-decoration: underline;
+}
+
+.row-map{
+  display: flex;
+  flex-direction: row;
 }
