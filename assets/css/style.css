@@ -569,7 +569,7 @@ iframe {
 }
 
 .imgbrand {
-  width: 13%;
+  width: 15%;
   height: min-content;
   margin: auto;
 }
@@ -581,16 +581,16 @@ iframe {
   align-content: center;
   padding-top: 10px;
   padding-bottom: 61px;
-  animation: bannermove 50s linear infinite alternate-reverse;
+  animation: bannermove 40s linear infinite alternate-reverse;
 }
 
 @keyframes bannermove {
   from {
-    left: 97vw;
+    left: 114vw;
   }
 
   to {
-    left: -97vw;
+    left: -114vw;
   }
 }
 
