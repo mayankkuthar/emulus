@@ -3,7 +3,7 @@ function showIndia(e) {
     var y = e.pageY;
     var address = document.getElementById("india-add");
     address.style.left = x-90 + "px";
-    address.style.top = y-258 + "px";
+    address.style.top = y-158 + "px"; //if Address include then change to 258
     address.style.opacity=1;
     address.style.zIndex=30;
 }
@@ -27,7 +27,7 @@ function showSingapore(e) {
     var y = e.pageY;
     var address = document.getElementById("singapore-add");
     address.style.left = x-90 + "px";
-    address.style.top = y-258 + "px";
+    address.style.top = y-158 + "px"; //if Address include then change to 258
     address.style.opacity=1;
     address.style.zIndex=30;
 }
@@ -43,7 +43,7 @@ function showUS(e) {
     var y = e.pageY;
     var address = document.getElementById("US-add");
     address.style.left = x-90 + "px";
-    address.style.top = y-258 + "px";
+    address.style.top = y-158 + "px"; //if Address include then change to 258
     address.style.opacity=1;
     address.style.zIndex=30;
 }
@@ -59,7 +59,7 @@ function showAustralia(e) {
     var y = e.pageY;
     var address = document.getElementById("austrila-add");
     address.style.left = x-90 + "px";
-    address.style.top = y-258 + "px";
+    address.style.top = y-158 + "px"; //if Address include then change to 258
     address.style.opacity=1;
     address.style.zIndex=30;
 }

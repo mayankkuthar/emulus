@@ -1071,7 +1071,7 @@ path {
   display: flex;
   flex-direction: column;
   width: 180px;
-  height: 250px;
+  height: 150px; /*if Address include then 250px*/
   position: absolute;
   top: 75%;
   left: 50%;
@@ -1087,7 +1087,7 @@ path {
   font-weight: lighter;
   background-color: #ffffff;
   width: 100%;
-  height: 57%;
+  height: 37%; /*if Address include then 57%*/
   border: 0.1px solid black;
   border-radius: 3%;
   box-shadow: 0px 0px 5px 0px;
@@ -1097,11 +1097,11 @@ path {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 39%;
+  height: 59%; /*if Address include then 39%*/
 }
 
 .map-address .dot {
-  width: 6%;
+  width: 3.5%; /*if Address include then 6%*/
   height: 4%;
   background-color: #ffffff;
   border: 0.1px solid black;
@@ -1125,19 +1125,19 @@ path {
 .vis .phone{
   display: flex;
   justify-content: left;
-  height: 15%;
+  height: 50%;  /*if Address include then 15%*/
   padding: 10px;
   padding-bottom: 1px !important;
-  padding-top: 1px !important;
+  padding-top: 5px !important; /*if Address include then 1px*/
 }
 
 .vis .mail{
   display: flex;
   justify-content: left;
-  height: 15%;
+  height: 50%; /*if Address include then 15%*/
   padding: 10px;
   padding-bottom: 1px !important;
-  padding-top: 1px !important;
+  padding-top: 5px !important; /*if Address include then 1px*/
 }
 
 .vis .dir{
