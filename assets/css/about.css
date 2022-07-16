@@ -117,10 +117,11 @@
 
 .globe-data .globe-content {
     flex: 6;
+    margin-top: -40px;
 }
 
 .globe-data img {
-    width: 30vw;
+    width: 19vw;
 }
 
 .globe-content p {
@@ -147,16 +148,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.expoertise-icons img {
-    object-fit: scale-down;
-    width: 113px;
-    height: 102px;
-    border: 1px solid var(--primary-color);
-    border-radius: 50%;
-    background-color: white;
-    /* padding: 14px; */
 }
 
 .expoertise-icons p {
@@ -193,7 +184,7 @@
 
 .vision-area .vision-content,
 .people-area .people-content {
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .vision-area .vision-content h2,
@@ -260,13 +251,6 @@
     flex-direction: row;
     align-items: center;
     /* justify-content: space-around; */
-}
-
-.list-group img {
-    border: 1px solid red;
-    border-radius: 50%;
-    object-fit: scale-down;
-    padding: 10px;
 }
 
 .list-content {

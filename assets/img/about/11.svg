@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113" height="113" viewBox="0 0 113 113">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_305" data-name="Rectangle 305" width="66.581" height="55.136" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4001" data-name="Group 4001" transform="translate(-1170 -3371)">
+    <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(1170 3371)" fill="#fff" stroke="#e54727" stroke-width="1">
+      <circle cx="56.5" cy="56.5" r="56.5" stroke="none"/>
+      <circle cx="56.5" cy="56.5" r="56" fill="none"/>
+    </g>
+    <g id="Group_1836" data-name="Group 1836" transform="translate(1191.432 3397)">
+      <g id="Group_1835" data-name="Group 1835" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_1323" data-name="Path 1323" d="M23.034,5.376a1.045,1.045,0,0,0-1.041,1.041,2.082,2.082,0,1,1-2.081-2.079,1.04,1.04,0,1,0,0-2.081,4.161,4.161,0,1,0,4.159,4.159,1.044,1.044,0,0,0-1.038-1.041" transform="translate(13.378 1.917)" fill="#e54727"/>
+        <path id="Path_1324" data-name="Path 1324" d="M31.1,26.459H29.017a1.04,1.04,0,0,0,0,2.081H31.1a1.04,1.04,0,0,0,0-2.081" transform="translate(23.766 22.475)" fill="#e54727"/>
+        <path id="Path_1325" data-name="Path 1325" d="M29.017,9.415H31.1a1.04,1.04,0,0,0,0-2.081H29.017a1.04,1.04,0,0,0,0,2.081" transform="translate(23.766 6.229)" fill="#e54727"/>
+        <path id="Path_1326" data-name="Path 1326" d="M65.539,28.349H63.461V25.227a1.043,1.043,0,0,0-1.041-1.039H4.161A1.043,1.043,0,0,0,3.12,25.227v3.122H1.039A1.043,1.043,0,0,0,0,29.389v4.159a1.045,1.045,0,0,0,1.039,1.043h64.5a1.045,1.045,0,0,0,1.041-1.043V29.389a1.043,1.043,0,0,0-1.041-1.039M64.5,32.511H2.081V30.43H48.894a1.04,1.04,0,1,0,0-2.081H5.2V26.269H61.38v2.081H59.3a1.04,1.04,0,0,0,0,2.081h5.2Z" transform="translate(0 20.546)" fill="#131931"/>
+        <path id="Path_1327" data-name="Path 1327" d="M8.319,19.767h54.1a1.045,1.045,0,0,0,1.041-1.041v-3.12H65.54a1.033,1.033,0,0,0,1.014-.832,1.043,1.043,0,0,0-.612-1.171L33.69.078a1.08,1.08,0,0,0-.8,0L.637,13.6a1.043,1.043,0,0,0,.4,2H3.121v3.12A1.043,1.043,0,0,0,4.16,19.767H8.319ZM5.2,15.606H48.895a1.04,1.04,0,0,0,0-2.081H6.213L33.289,2.173,60.363,13.525H59.3a1.04,1.04,0,1,0,0,2.081h2.081v2.081H5.2Z" transform="translate(0.001 -0.001)" fill="#131931"/>
+        <rect id="Rectangle_293" data-name="Rectangle 293" width="2.081" height="24.968" transform="translate(6.242 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_294" data-name="Rectangle 294" width="2.081" height="24.968" transform="translate(11.443 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_295" data-name="Rectangle 295" width="2.081" height="24.968" transform="translate(20.806 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_296" data-name="Rectangle 296" width="2.081" height="24.968" transform="translate(15.606 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_297" data-name="Rectangle 297" width="2.081" height="24.968" transform="translate(53.056 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_298" data-name="Rectangle 298" width="2.081" height="24.968" transform="translate(43.694 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_299" data-name="Rectangle 299" width="2.081" height="24.968" transform="translate(48.894 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_300" data-name="Rectangle 300" width="2.081" height="24.968" transform="translate(58.258 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_301" data-name="Rectangle 301" width="2.081" height="24.968" transform="translate(39.532 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_302" data-name="Rectangle 302" width="2.081" height="24.968" transform="translate(24.968 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_303" data-name="Rectangle 303" width="2.081" height="24.968" transform="translate(30.168 19.765)" fill="#e54727"/>
+        <rect id="Rectangle_304" data-name="Rectangle 304" width="2.081" height="24.968" transform="translate(34.33 19.765)" fill="#e54727"/>
+      </g>
+    </g>
+  </g>
+</svg>

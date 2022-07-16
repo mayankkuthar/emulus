@@ -106,6 +106,7 @@ input::placeholder {
   background-color: #fff;
   color: #000;
   border: 1px solid #000;
+  display: flex;
 }
 
 .btn-inverse1 {
@@ -164,7 +165,6 @@ body {
   letter-spacing: 1.5px;
   line-height: 55px;
   position: relative;
-  margin-left: 124px;
 }
 
 .banner-title h1:before {
@@ -557,6 +557,9 @@ body {
   .just-around{
     justify-content: space-around !important;
   }
+  .text-around{
+    width: 100% !important;
+  }
 }
 
 @media only screen and (max-width: 300px) {
@@ -916,6 +919,14 @@ iframe {
 
 }
 
+.link:hover a {
+  color:#E54727 !important;
+}
+
+.link2:hover a {
+  color:#E54727 !important;
+}
+
 
 .link1 {
   display: inline-block;
@@ -986,6 +997,7 @@ iframe {
   color: #E54727;
   border: 1px solid #E54727;
   margin-top: -10px;
+  display: flex;
 
 }
 
@@ -994,6 +1006,7 @@ iframe {
   color: #E54727;
   border: 1px solid #E54727;
   margin-top: -10px;
+  display: flex;
 
 }
 
@@ -1026,7 +1039,7 @@ iframe {
   position: absolute;
   border-top: 9px solid #E54727;
   border-left: 9px solid #E54727;
-  z-index: 9999;
+  z-index: 9;
 }
 
 .bord3:after {
