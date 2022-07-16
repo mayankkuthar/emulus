@@ -465,7 +465,7 @@ body {
 }
 
 .about-data {
-  padding: 15px;
+  padding: 15px 0px;
   max-width: 550px;
   margin-top: -0.5rem;
 }
