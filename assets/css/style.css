@@ -109,9 +109,10 @@ input::placeholder {
 }
 
 .btn-inverse1 {
-  background-color: #fff;
+  background-color:transparent;
   color: #E54727;
   border: 1px solid #E54727;
+  display: flex;
 }
 
 body {
@@ -248,10 +249,32 @@ body {
   margin-top: 25px;
 }
 
+.img-text{
+  position: absolute;
+  width: 260px;
+  margin-top: -16vw;
+  margin-left: 44vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-text-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img-text p{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 17px;
+  color: white;
+}
+
 .section-para p {
   color: var(--ternary-color);
   font-size: 18px;
-  width: 76%;
   max-width: 100%;
   margin: 0 auto;
   padding-top: 13px;
