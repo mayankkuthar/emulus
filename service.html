@@ -80,15 +80,15 @@
       </div>
     </section>
 
-    <section class="data-eng sec-o">
+    <section class="data-eng">
       <div class="container">
         <div class="row box">
           <div class="col-lg-6 col-md-6 col-sm-12">
             <div class="bord4">
               <img src="./assets/img/service/data-eng.png" class="img-fluid service-img" alt="" style="width: 434px;" />
             </div>
-            <div class="about-button mt-2 mb-2 image-text-flex" style="display:flex; justify-content:flex-end">
-              <a href="service.html"><button class="btn btn-inverse cap-btn-hover">know more<i
+            <div onclick="dataengg()" class="about-button mt-2 mb-2 image-text-flex" >
+              <a><button class="btn btn-inverse cap-btn-hover">know more<i
                     class="fas fa-caret-right" style="margin-left:5px" ></i></button></a>
             </div>
           </div>
@@ -106,7 +106,8 @@
       </div>
     </section>
 
-    <section class="data-content">
+    <section class="data-content" id="data-content">
+      <a onclick="dataclose()" style="position: absolute; margin-left: 93%"><img src="./assets/img/about/cancel.svg"></a>
       <div class="container">
         <div class="row box">
           <div class="col-lg-6">
@@ -163,7 +164,7 @@
             </ul>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="bord4">
+            <div class="bord4" style="margin-left: auto;">
               <img src="./assets/img/service/data-science.jpeg" class="img-fluid service-img" alt=""
                 style="width: 434px;" />
             </div>
@@ -221,7 +222,7 @@
             </ul>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="bord4">
+            <div class="bord4" style="margin-left: auto;">
               <img src="./assets/img/service/market-research.jpeg" class="img-fluid service-img" alt=""
                 style="width: 434px;" />
             </div>
@@ -277,7 +278,7 @@
             </ul>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="bord4">
+            <div class="bord4" style="margin-left: auto;">
               <img src="./assets/img/service/visual-intell.jpeg" class="img-fluid service-img" alt=""
                 style="width: 434px;" />
             </div>
@@ -375,7 +376,9 @@
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+  </script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

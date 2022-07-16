@@ -1,33 +1,3 @@
-
-var swiper = new Swiper(".testimonial-slider", {
-  grabCursor: true,
-  spaceBetween: 30,
-  centeredSlides: true,
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 1,
-    },
-    1024: {
-      slidesPerView: 1,
-    },
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
-
 function nextDiv() {
   var data_eng = document.getElementById("data_engg");
   var visual_ele = document.getElementById("visual");
@@ -98,4 +68,12 @@ function prevDiv() {
     cloud_ele_title.classList.remove("active");
     market_ele_title.classList.add("active");
   }
+}
+
+function dataengg(){
+  document.getElementById("data-content").style.display = "block";
+}
+
+function dataclose(){
+  document.getElementById("data-content").style.display = "none";
 }
