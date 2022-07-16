@@ -1069,7 +1069,7 @@ iframe {
   left: 0px;
   border-top: 9px solid #E54727;
   border-left: 9px solid #E54727;
-  z-index: 9999;
+  z-index: 9;
 }
 
 .bord4:after {
