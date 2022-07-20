@@ -203,6 +203,13 @@ body {
   padding: 7px 12px;
 }
 
+.banner-button .btn:hover {
+  color: var(--primary-color);
+  background-color: var(--color-white);
+}
+
+
+
 .capibilities {
   padding: 25px 0;
 }
@@ -314,6 +321,12 @@ body {
   transition: all 0.3s ease;
 }
 
+@media only screen and (max-width: 490px) {
+  .nav-tabs .nav-link{
+    font-size: 9px;
+  }
+}
+
 .main-flex {
   display: flex;
   flex-direction: column;
@@ -392,11 +405,9 @@ body {
   color: black;
   display: flex;
   flex-direction: column;
-  max-width: 435px;
   text-align: center;
   align-items: center;
   padding: 15px;
-  padding-right: 156px;
 }
 
 .why-us-data h3 {
@@ -406,7 +417,6 @@ body {
   font-weight: 700;
   position: relative;
   margin-bottom: 1rem;
-  margin-left: 149px;
 }
 
 .why-us-data h3:after {
@@ -427,15 +437,20 @@ body {
 }
 
 .why-us-data p {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+  .resp-field{
+    display: block !important;
+  }
 }
 
 .partner-col {
   background: #e7e8ea;
   padding: 25px;
   padding-left: 60px;
-  padding-right: 177px;
 }
 
 .partner-data {
@@ -520,28 +535,26 @@ body {
 .why-us-h6 {
   padding-top: 10px;
   width: 31vw;
-  margin-left: 5vw;
 }
 
 .why-us-p {
-  margin-left: 4vw;
   width: 33vw;
   margin-top: 18px;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 770px) {
+  .why-us-content{
+    justify-content: center;
+  }
   .why-us-h6 {
-    width: 350px;
+    width: 60vw;
   }
 
   .why-us-p {
-    width: 450px;
-  }
-
-  .why-us-data {
-    padding-right: 8vw;
+    width: 60vw;
   }
 }
+
 
 @media only screen and (max-width: 400px) {
   .why-us-h6 {
@@ -621,7 +634,7 @@ iframe {
   align-content: center;
   padding-top: 10px;
   padding-bottom: 61px;
-  animation: bannermove 40s linear infinite alternate-reverse;
+  animation: bannermove 80s linear infinite reverse;
 }
 
 @keyframes bannermove {
@@ -833,7 +846,7 @@ iframe {
   left: 0px;
   border-top: 9px solid #E54727;
   border-left: 9px solid #E54727;
-  z-index: 9999;
+  z-index: 9;
 }
 
 .bord2:after {
