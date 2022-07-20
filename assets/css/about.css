@@ -145,7 +145,7 @@
 }
 
 .expertise-img {
-    width: 41% !important;
+    width: 41%;
     display: flex;
     justify-content: center;
 }
@@ -180,13 +180,30 @@
     margin-top: 19vw;
 }
 
+@media only screen and (max-width: 845px) {
+    .expertise-img p{
+        width: 50% ;
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .expertise-img {
+        width: 80% !important;
+    }
+    .expertise-img p{
+        width: 80% ;
+        font-size: 22px;
+    }
+}
+
 @media only screen and (max-width: 1135px) {
     .resp-col {
         flex-direction: column;
         align-items: center;
     }
     .expertise-img {
-        width: 50% !important;
+        width: 50%;
     }
 }
 
