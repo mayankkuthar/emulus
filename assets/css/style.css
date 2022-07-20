@@ -1212,4 +1212,18 @@ path {
     margin-left: 5vw;
     margin-right: 5vw;
   }
+  .resp-field{
+    display: block !important;
+  }
 }
+
+@media only screen and (max-width: 600px) {
+  .resp-field{
+    display: block !important;
+  }
+}
+
+.overide-form{
+border: 1px solid rgba(200, 200, 200, .5);
+}
+
