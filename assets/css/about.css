@@ -137,25 +137,57 @@
 }
 
 .expertise-content {
-    padding: 30px 20px;
-    padding-left: 7px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
+.expertise-img {
+    width: 41% !important;
+    display: flex;
+    justify-content: center;
+}
+
 .expoertise-icons {
-    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .expoertise-icons p {
-    font-size: 17px;
+    font-size: 15px;
     text-transform: capitalize;
     padding-top: 11px;
     font-weight: 300;
     text-align: center;
+}
+
+@media only screen and (max-width: 1216px) {
+    .expoertise-icons p {
+        font-size: 13px;
+    }
+}
+
+.expertise-img p {
+    position: absolute;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 19vw;
+}
+
+@media only screen and (max-width: 1135px) {
+    .resp-col {
+        flex-direction: column;
+        align-items: center;
+    }
+    .expertise-img {
+        width: 50% !important;
+    }
 }
 
 .vision-people {
