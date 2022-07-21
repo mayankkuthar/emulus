@@ -79,3 +79,20 @@ function dataclose(){
   var ele = document.getElementById("data-content");
   ele.style.display = "none";
 }
+
+function validate() {
+  var name = document.getElementById('Name');
+  var email = document.getElementById('Email');
+  if (!name.value) {
+    name.classList.add('error');
+    setTimeout(function() {
+      name.classList.remove('error');
+    }, 300);
+  }
+  if (!email.value) {
+    email.classList.add('error');
+    setTimeout(function() {
+      email.classList.remove('error');
+    }, 300);
+  }
+}

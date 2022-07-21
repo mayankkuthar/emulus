@@ -1,24 +1,30 @@
 input[type="text"]{
     height: 45px;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 0;
     margin: .5rem 0;
+    outline: none;
 }
 
 select{
     height: 45px;
-    border-width: 2px !important;
+    border-width: 1px !important;
     border-radius: 0 !important;   
     margin: .5rem 0;
-
+    outline: none;
 }
 
 textarea{
-    border-width: 2px !important;
+    border-width: 1px !important;
     border-radius: 0 !important; 
     margin: .5rem 0;
     resize: none;
+    outline: none;
 }
+
+input:focus, textarea:focus, select:focus {
+    outline: none !important;
+  }
 
 .subcorner{
     display: flex;
