@@ -71,9 +71,11 @@ function prevDiv() {
 }
 
 function dataengg(){
-  document.getElementById("data-content").style.display = "block";
+  var ele = document.getElementById("data-content");
+  ele.style.display = "block";
 }
 
 function dataclose(){
-  document.getElementById("data-content").style.display = "none";
+  var ele = document.getElementById("data-content");
+  ele.style.display = "none";
 }

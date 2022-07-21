@@ -1256,6 +1256,14 @@ path {
   .after-button {
     display: flex !important;
   }
+  .fe{
+    display:flex; 
+    justify-content:flex-end;
+  }
+
+  .after-img {
+    display: block !important;
+  }
 
   .before-button {
     display: none !important;

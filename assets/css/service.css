@@ -266,9 +266,7 @@
     border-bottom: 2px solid var(--primary-color);
 }
 
-.data-content-dis{
-    display: block !important;
-}
+
 
 .data-data {
     margin-bottom: 2rem;
