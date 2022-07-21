@@ -1285,3 +1285,15 @@ path {
     display: block !important;
   }
 }
+
+.close-img{
+  position: absolute; 
+  margin-left: 91%;
+  width: 4%;
+}
+
+@media only screen and (max-width: 730px) {
+  .close-img{
+    width: 6%;
+  }
+}
