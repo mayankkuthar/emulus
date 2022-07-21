@@ -1246,6 +1246,10 @@ path {
   .resp-field {
     display: block !important;
   }
+
+  .icon-size {
+    width: 15vw
+  }
 }
 
 .overide-form {

@@ -187,14 +187,24 @@
     }
 }
 
+.study-img{
+    width:378px;
+}
+
 @media only screen and (max-width: 600px) {
+    .study-img{
+        width:300px;
+    }
     .expertise-img {
         width: 80% !important;
     }
     .expertise-img p{
-        width: 80% ;
-        font-size: 22px;
-    }
+        font-size: 31px;
+        margin-top: 42vw;
+      }
+      .expertise-content {
+        grid-template-columns: 50% 50%;
+      }
 }
 
 @media only screen and (max-width: 1135px) {
