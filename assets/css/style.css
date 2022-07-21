@@ -1123,8 +1123,8 @@ iframe {
 }
 
 path {
-  fill: lightgray;
-  stroke: white;
+  fill: white;
+  stroke: #c8c8c8;
   z-index: 20;
 }
 
