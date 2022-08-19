@@ -6,6 +6,42 @@
   --color-white: #ffffff;
 }
 
+.cap-cover1{
+  background: url(../img/data-engg1.png) no-repeat center center; 
+  background-size: cover;
+  background-position: 0% 50%;
+  width: 100%;
+}
+
+.cap-cover2{
+  background: url(../img/Banners_Visual_Intelligence1.jpg) no-repeat center center; 
+  background-size: cover;
+  background-position: 0% 50%;
+  width: 100%;
+}
+
+.cap-cover3{
+  background: url(../img/Banners_Market_Research_Services1.jpg) no-repeat center center; 
+  background-size: cover;
+  background-position: 0% 50%;
+  width: 100%;
+}
+
+.cap-cover4{
+  background: url(../img/Banners_Software_Services1.jpg) no-repeat center center; 
+  background-size: cover;
+  background-position: 0% 50%;
+  width: 100%;
+}
+
+.text-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 40vh;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +119,30 @@ input::placeholder {
 @media only screen and (max-width: 538px) {
   .img1 {
     display: none;
+  }
+
+  .cap-cover1{
+    background: url(../img/data-engg2.png) no-repeat center center; 
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  .cap-cover2{
+    background: url(../img/Banners_Visual_Intelligence2.jpg) no-repeat center center; 
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  .cap-cover3{
+    background: url(../img/Banners_Market_Research_Services2.jpg) no-repeat center center; 
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  .cap-cover4{
+    background: url(../img/Banners_Software_Services2.jpg) no-repeat center center; 
+    background-size: cover;
+    background-position: 50%;
   }
 
   .img2 {
@@ -258,12 +318,11 @@ body {
 }
 
 .img-text {
-  position: absolute;
+  /* position: absolute; */
   width: 260px;
-  margin-top: -16vw;
-  margin-left: 44vw;
-  display: flex;
-  flex-direction: column;
+  margin-right: 12vw;
+  
+  
 }
 
 .img-text-after {
@@ -1271,20 +1330,6 @@ path {
 
   .before-button {
     display: none !important;
-  }
-}
-
-@media only screen and (max-width: 1125px) {
-  .img-text {
-    margin-left: 35vw;
-    margin-top: -17.5vw;
-  }
-}
-
-@media only screen and (max-width: 845px) {
-  .img-text {
-    margin-left: 44vw;
-    margin-top: -22vw;
   }
 }
 
