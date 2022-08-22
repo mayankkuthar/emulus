@@ -119,4 +119,18 @@ function resshow(){
   else{
     ele2.classList.add('show');
   }
+  var ele3 = document.getElementById("resshow3");
+  if(ele3.classList.contains("show")){
+    ele3.classList.remove('show');
+  }
+  else{
+    ele3.classList.add('show');
+  }
+  var ele4 = document.getElementById("resshow4");
+  if(ele4.classList.contains("show")){
+    ele4.classList.remove('show');
+  }
+  else{
+    ele4.classList.add('show');
+  }
 }
