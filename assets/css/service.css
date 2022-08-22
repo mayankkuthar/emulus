@@ -155,11 +155,10 @@
 .data-eng-content p {
     font-size: 19px;
     font-weight: 200;
-    line-height: 34px;
+    line-height: normal;
     margin-bottom: 1.5rem;
     max-width: 409px;
-    padding-left: 11px;
-    padding-top: 6px;
+    padding: 6px 0px 11px 11px;
 }
 
 .data-eng-content2 p {

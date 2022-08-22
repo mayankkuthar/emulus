@@ -96,3 +96,27 @@ function validate() {
     }, 300);
   }
 }
+
+function resshow(){
+  var ele = document.getElementById("resshow");
+  if(ele.classList.contains("show")){
+    ele.classList.remove('show');
+  }
+  else{
+    ele.classList.add('show');
+  }
+  var ele1 = document.getElementById("resshow1");
+  if(ele1.classList.contains("show")){
+    ele1.classList.remove('show');
+  }
+  else{
+    ele1.classList.add('show');
+  }
+  var ele2 = document.getElementById("resshow2");
+  if(ele2.classList.contains("show")){
+    ele2.classList.remove('show');
+  }
+  else{
+    ele2.classList.add('show');
+  }
+}

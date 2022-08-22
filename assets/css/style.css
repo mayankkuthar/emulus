@@ -1346,7 +1346,7 @@ path {
 .close-img{
   position: absolute; 
   margin-left: 91%;
-  width: 4%;
+  width: 3%;
 }
 
 @media only screen and (max-width: 730px) {
@@ -1370,4 +1370,8 @@ path {
   100% {
     right: -5px;
   }
+}
+
+.show {
+  display: none !important;
 }
