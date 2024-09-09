@@ -10,9 +10,9 @@ function nextDiv() {
 
   if(data_eng.classList.contains("active")){
     data_eng.classList.remove("active");
-    visual_ele.classList.add("active");
+    cloud_ele.classList.add("active");
     data_eng_title.classList.remove("active");
-    visual_ele_title.classList.add("active");
+    cloud_ele_title.classList.add("active");
   }
   else if(visual_ele.classList.contains("active")){
     visual_ele.classList.remove("active");
@@ -22,15 +22,15 @@ function nextDiv() {
   }
   else if(market_ele.classList.contains("active")){
     market_ele.classList.remove("active");
-    cloud_ele.classList.add("active");
+    data_eng.classList.add("active");
     market_ele_title.classList.remove("active");
-    cloud_ele_title.classList.add("active");
+    data_eng_title.classList.add("active");
   }
   else if(cloud_ele.classList.contains("active")){
     cloud_ele.classList.remove("active");
-    data_eng.classList.add("active");
+    visual_ele.classList.add("active");
     cloud_ele_title.classList.remove("active");
-    data_eng_title.classList.add("active");
+    visual_ele_title.classList.add("active");
   }
 }
 
